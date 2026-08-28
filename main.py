@@ -8,4 +8,4 @@ async def root():
 
 @app.get("/teste")
 async def teste():
-    return {"teste" : "Deu certo"}
+    return {"teste" : "Deu certo", "teste2": "Deu certo novamente"}
