@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Continuous Deliver
 on:
   push:
     branches:
@@ -17,4 +17,3 @@ jobs:
           path: |
             main.py
             README.MD
-            
