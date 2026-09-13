@@ -1,4 +1,4 @@
-FROM python:3
+FROM python:3.14-slim
 
 WORKDIR /usr/src/app
 
@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 EXPOSE 80
-CMD [ "fastapi", "run","main.py","--port", "8000" ]
+CMD [ "fastapi", "run","main.py","--port", "80" ]
