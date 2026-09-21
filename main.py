@@ -8,4 +8,4 @@ async def root():
 
 @app.get("/teste1")
 async def teste():
-    return {"teste" : "Deu certo", "teste2": "Deu certo novamente"}
+    return {"teste" : "Deu certo", "teste2": "Deu certo novamente, msg discord"}
