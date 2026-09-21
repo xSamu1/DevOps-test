@@ -7,5 +7,5 @@ async def root():
     return {"message" : "Hello World"}
 
 @app.get("/teste1")
-async def teste():
+async def funcaotest():
     return {"teste" : "Deu certo", "teste2": "Deu certo novamente, msg discord"}
