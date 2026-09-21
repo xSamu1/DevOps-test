@@ -9,4 +9,4 @@ async def test_root():
 @pytest.mark.asyncio
 async def test_funcaotest():
     result = await funcaotest()
-    assert result == {"teste" : "Deu certo", "teste2": "Deu certo novamente"}
+    assert result == {"teste": "Deu certo", "teste2": "Deu certo novamente, msg discord"}
